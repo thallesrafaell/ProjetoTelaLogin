@@ -5,3 +5,58 @@ cores
 cinza #536872
 creme #F0E7D6
 Azul #0F4C83*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Poppins', helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-image: linear-gradient(#F0E7D6, #b6b0a4);
+    width: 100vw;
+    height: 100vh;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    display: block;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 0px solid black;
+    box-shadow: 0px 2px 5px hsla(37, 10%, 64%, 0.801);
+}
+
+section#login > div#imagem{
+    display: block;
+    background: url(../img/imgl.jpg);
+    background-size: cover;
+    background-position: left bottom ;
+    height: 200px;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+    
+
+}
+
+section#login > div#form{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+}
