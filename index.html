@@ -18,16 +18,20 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem vindo!</p>
-                <p>Digite Usuario e senha</p>
+                <p id="p2">Digite Usuario e senha</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <span class="material-icons">person</span>
-                    <input type="text" name="Usuario" id="usuario" autocomplete="email"  required>
-                    <label for="usuario">Usuario:</label><br>
-                    <span class="material-icons">vpn_key</span>
-                    <input type="password" name="password" id="isenha" required maxlength="12" autocomplete="current-password" minlength="8">
-                    <label for="isenha">Senha:</label><br>            
-                    <input type="submit" name="login" value="login">
-                    <a href="#">Esqueci a senha <span class="material-icons">mail</span></a>
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        <input type="text" name="Usuario" id="usuario" autocomplete="email"  required>
+                        <label for="usuario">Usuario:</label><br>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="password" id="isenha" required maxlength="12" autocomplete="current-password" minlength="8">
+                        <label for="isenha">Senha:</label><br>
+                    </div>            
+                    <div class="login"><input type="submit" name="login" value="login"></div>
+                    <div class="login"><a class="botao" href="#">Esqueci a senha <span class="material-icons">mail</span></a></div>
 
                 </form>
             </div>

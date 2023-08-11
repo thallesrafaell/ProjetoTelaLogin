@@ -15,6 +15,21 @@ Azul #0F4C83*/
     box-sizing: border-box;
 }
 
+h1{
+    color: #0F4C83;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #536872;
+    margin: 2;
+}
+
+p#p2{
+    margin-bottom: 5px;
+}
+
 body, html{
     background-image: linear-gradient(#F0E7D6, #b6b0a4);
     width: 100vw;
@@ -60,3 +75,91 @@ section#login > div#form{
     flex-direction: column;
     align-items: left;
 }
+
+form  input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #0F4C83;
+    color: #F0E7D6;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-left: 5px;
+
+}
+form .login input[type=submit]:hover{
+    background-color: #536872 ;
+}
+
+form > .campo {
+    background-color: #536872;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    color: #F0E7D6;
+    border: 2px solid #536872;
+}
+
+
+
+.campo span{
+    font-size: 2em;
+}
+
+.campo input{
+    background-color: #f0e7d6;
+    color: #536872;
+    font-size: 1em;
+    width: calc(100% - 50px);
+    height: 100%;
+    border-radius: 10px;
+
+
+}
+.campo input:focus-within{
+    background-color: white;
+    border: none;
+
+}
+
+form span {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+form  label{
+    display: none;
+}
+
+form  .botao {
+    display: flex;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #F0E7D6;
+    color: #536872;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+form  .botao:hover{
+    background-color: #536872;
+    color: #F0E7D6;
+    border: #F0E7D6;
+
+}
+
+
+
